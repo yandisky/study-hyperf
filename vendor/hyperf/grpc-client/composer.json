@@ -1,0 +1,49 @@
+{
+    "name": "hyperf/grpc-client",
+    "description": "A GRPC Client for Hyperf.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "grpc",
+        "grpc-client"
+    ],
+    "homepage": "https://hyperf.io",
+    "support": {
+        "docs": "https://hyperf.wiki",
+        "issues": "https://github.com/hyperf/hyperf/issues",
+        "pull-request": "https://github.com/hyperf/hyperf/pulls",
+        "source": "https://github.com/hyperf/hyperf"
+    },
+    "require": {
+        "php": ">=7.2",
+        "hyperf/grpc": "~2.2.0",
+        "hyperf/utils": "~2.2.0",
+        "jean85/pretty-package-versions": "^1.2|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyperf\\GrpcClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\GrpcClient\\": "tests/",
+            "GPBMetadata\\": "tests/GPBMetadata",
+            "Grpc\\": "tests/Grpc",
+            "Routeguide\\": "tests/Routeguide"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        },
+        "hyperf": {
+            "config": "Hyperf\\GrpcClient\\ConfigProvider"
+        }
+    }
+}

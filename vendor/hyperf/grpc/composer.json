@@ -1,0 +1,38 @@
+{
+    "name": "hyperf/grpc",
+    "description": "A GRPC basic library for Hyperf.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "grpc"
+    ],
+    "homepage": "https://hyperf.io",
+    "support": {
+        "docs": "https://hyperf.wiki",
+        "issues": "https://github.com/hyperf/hyperf/issues",
+        "pull-request": "https://github.com/hyperf/hyperf/pulls",
+        "source": "https://github.com/hyperf/hyperf"
+    },
+    "require": {
+        "php": ">=7.2",
+        "google/protobuf": "^3.6.1"
+    },
+    "suggest": {
+        "ext-protobuf": "For better performance, install the protobuf C extension."
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyperf\\Grpc\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    }
+}
