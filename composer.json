@@ -32,6 +32,7 @@
         "hyperf/model-cache": "~2.2.0",
         "hyperf/process": "~2.2.0",
         "hyperf/redis": "~2.2.0",
+        "hyperf/retry": "^2.2",
         "hyperf/rpc-client": "^2.2",
         "hyperf/rpc-server": "^2.2",
         "hyperf/service-governance-consul": "^2.2",

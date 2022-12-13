@@ -57,6 +57,7 @@ return array(
     'Hyperf\\Rpc\\' => array($vendorDir . '/hyperf/rpc/src'),
     'Hyperf\\RpcServer\\' => array($vendorDir . '/hyperf/rpc-server/src'),
     'Hyperf\\RpcClient\\' => array($vendorDir . '/hyperf/rpc-client/src'),
+    'Hyperf\\Retry\\' => array($vendorDir . '/hyperf/retry/src'),
     'Hyperf\\Redis\\' => array($vendorDir . '/hyperf/redis/src'),
     'Hyperf\\Process\\' => array($vendorDir . '/hyperf/process/src'),
     'Hyperf\\Pool\\' => array($vendorDir . '/hyperf/pool/src'),

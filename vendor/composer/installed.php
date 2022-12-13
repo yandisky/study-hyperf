@@ -481,6 +481,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'hyperf/retry' => array(
+            'pretty_version' => 'v2.2.33',
+            'version' => '2.2.33.0',
+            'reference' => '48920f15d4cbf6adf7f1f79ba6c0954a8dc95649',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hyperf/retry',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'hyperf/rpc' => array(
             'pretty_version' => 'v2.2.33',
             'version' => '2.2.33.0',

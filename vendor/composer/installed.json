@@ -3269,6 +3269,65 @@
             "install-path": "../hyperf/redis"
         },
         {
+            "name": "hyperf/retry",
+            "version": "v2.2.33",
+            "version_normalized": "2.2.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/retry.git",
+                "reference": "48920f15d4cbf6adf7f1f79ba6c0954a8dc95649"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/retry/zipball/48920f15d4cbf6adf7f1f79ba6c0954a8dc95649",
+                "reference": "48920f15d4cbf6adf7f1f79ba6c0954a8dc95649",
+                "shasum": ""
+            },
+            "require": {
+                "hyperf/utils": "~2.2.0",
+                "php": ">=7.2",
+                "psr/container": "^1.0|^2.0"
+            },
+            "suggest": {
+                "hyperf/contract": "Required to use annotations.",
+                "hyperf/di": "Required to use annotations."
+            },
+            "time": "2022-05-24T13:10:54+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "hyperf": {
+                    "config": "Hyperf\\Retry\\ConfigProvider"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hyperf\\Retry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A retry component for hyperf.",
+            "homepage": "https://hyperf.io",
+            "keywords": [
+                "hyperf",
+                "php",
+                "retry"
+            ],
+            "support": {
+                "docs": "https://hyperf.wiki",
+                "issues": "https://github.com/hyperf/hyperf/issues",
+                "pull-request": "https://github.com/hyperf/hyperf/pulls",
+                "source": "https://github.com/hyperf/hyperf"
+            },
+            "install-path": "../hyperf/retry"
+        },
+        {
             "name": "hyperf/rpc",
             "version": "v2.2.33",
             "version_normalized": "2.2.33.0",
