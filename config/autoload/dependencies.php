@@ -10,4 +10,5 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 return [
+//    \App\JsonRpc\CalculatorServiceInterface::class => \App\JsonRpc\CalculatorServiceConsumer::class,//手动生成服务消费者
 ];
